@@ -1,4 +1,4 @@
-# 📚 Repositorio de Bibliografía y Referencias - Proyecto ISR-401
+# 📚 Repositorio de Bibliografía y Referencias - Proyecto
 
 **Asignatura:** Ingeniería de Requisitos
 **Tema del Proyecto:** *Sistema web para la identificación temprana de dificultades académicas mediante el análisis de indicadores de rendimiento estudiantil.*  
