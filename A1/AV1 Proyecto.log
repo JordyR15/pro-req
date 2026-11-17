@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.7)  16 NOV 2026 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.7)  16 NOV 2026 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -330,8 +330,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 x.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count317
+) (AV1 Proyecto.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 23.
 )
-No file "AV1 Proyecto".aux.
 \openout1 = `"AV1 Proyecto.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -352,6 +356,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -388,50 +393,44 @@ LaTeX Font Info:    ... okay on input line 14.
 
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 14.
 Package hyperref Info: Link coloring OFF on input line 14.
+(AV1 Proyecto.out) (AV1 Proyecto.out)
 \@outlinefile=\write3
 \openout3 = `"AV1 Proyecto.out"'.
 
-[1
+ [1
 
-{C:/Users/Ryu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(AV1 Proyecto.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+{C:/Users/Ryu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (AV1 Proye
+cto.aux
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
 )
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-Package rerunfilecheck Warning: File `"AV1 Proyecto".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"AV1 Proyecto".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  41CEAFA31F3A4C83D187DAF4CB1BBEC5;3891.
+Package rerunfilecheck Info: File `"AV1 Proyecto".out' has not changed.
+(rerunfilecheck)             Checksum: 41CEAFA31F3A4C83D187DAF4CB1BBEC5;3891.
  ) 
 Here is how much of TeX's memory you used:
- 10532 strings out of 467870
- 164155 string characters out of 5419323
- 596694 words of memory out of 5000000
- 39308 multiletter control sequences out of 15000+600000
- 636051 words of font info for 59 fonts, out of 8000000 for 9000
+ 10575 strings out of 467870
+ 165036 string characters out of 5419323
+ 603996 words of memory out of 5000000
+ 39336 multiletter control sequences out of 15000+600000
+ 637523 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,242b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm10
+ 75i,6n,79p,658b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti10
 95.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-bx1200.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1440.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecrm1200.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecrm1728.pk>
-Output written on "AV1 Proyecto.pdf" (1 page, 56342 bytes).
+bx1095.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1095.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecbx1200.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1440.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1200.pk> <C:\Users\Ryu\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm1728.pk>
+Output written on "AV1 Proyecto.pdf" (2 pages, 111438 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

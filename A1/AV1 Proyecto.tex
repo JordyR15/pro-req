@@ -7,9 +7,9 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 
-\title{Primer Avance: TA-PFC-E1 -- Sistema Web de Tutorías y Seguimiento Estudiantil}
-\author{Jordy Rivas, Luis Yepez, Yerai Chalacán y Angelo Espinoza}
-\date{\today}
+\title{Primer Avance: Arquitectura Web y Analítica de Aprendizaje Aplicadas a un Sistema de Tutorías y Seguimiento Estudiantil}
+\author{Angelo Espinoza, Luis Yepez, Jordy Rivas y Yerai Chalacán}
+\date{}
 
 \begin{document}
 
@@ -29,11 +29,41 @@
 
 \section{Contexto del Sistema}
 \subsection{Delimitación de fronteras de la solución}
+Las fronteras de la solución delimitan el alcance operacional y técnico del sistema web de tutorías y seguimiento estudiantil frente a procesos manuales y plataformas externas. Siguiendo los principios de integración de sistemas de gestión de aprendizaje (LMS) y analítica del rendimiento descritos en la literatura, se establece una separación clara entre el núcleo de la plataforma de tutorías y los canales de comunicación informales o no monitorizados (tales como reuniones presenciales informales, llamadas telefónicas o chats externos sin trazabilidad) \cite{popescu2018, chamoun2025, molenaar2020}. 
+
+De este modo, se garantiza que las interacciones tácitas y los rastros digitales generados por los estudiantes dentro del ecosistema web sirvan como complemento directo a las evaluaciones formales y explícitas (exámenes, calificaciones y entregas de tareas) \cite{chamoun2025, dequincey2019, cruz2025}.
+
 \subsection{Diagrama de contexto e intercambios de información externa}
+El sistema se modela bajo una arquitectura orientada a servicios y flujos de datos asíncronos que conectan a los actores del sistema (Estudiante, Docente y Administrador) con el repositorio centralizado de datos (Supabase/PostgreSQL) y servicios de notificación (SMTP). 
+
+\begin{itemize}
+    \item \textbf{Actores y Roles:} Los estudiantes interactúan para solicitar tutorías y revisar su progreso; los docentes gestionan disponibilidades, aceptan solicitudes y evalúan los reportes de rendimiento analítico; los administradores configuran parámetros institucionales y roles del sistema \cite{cruz2025, molenaar2020, chamoun2025}.
+    \item \textbf{Datos de Entrada:} Se recopilan indicadores sociodemográficos, antecedentes académicos previos (calificaciones de secundaria y resultados de admisión), marcas de tiempo, frecuencia de uso y registros de asistencia \cite{cruz2025, popescu2018, dequincey2019}.
+    \item \textbf{Datos de Salida:} El sistema genera etiquetas analíticas de riesgo académico, reportes tabulares y gráficos de rendimiento, además de confirmaciones de citas y disparadores de alertas automatizadas ante umbrales críticos de inasistencia o bajo rendimiento \cite{chamoun2025, cruz2025, molenaar2020}.
+\end{itemize}
 
 \section{Plan de Elicitación}
 \subsection{Técnicas de elicitación seleccionadas}
 \subsection{Cronograma de sesiones y responsables}
 \subsection{Guía e instrumentos de entrevista}
+
+\begin{thebibliography}{9}
+
+\bibitem{chamoun2025}
+Chamoun, R., Wazen, W., \& Gharib, M. (2025). Design and Implementation of a Real-Time Web Infrastructure for Student Monitoring: A Kafka-Based Plugin for Moodle. \emph{Proceedings of the 21st International Conference on Web Information Systems and Technologies (WEBIST)}, 205-212.
+
+\bibitem{cruz2025}
+Cruz, M. M. P., \& Lumauag, R. G. (2025). Development of a Web-Based Student Academic Performance Prediction Using Machine Learning for Higher Education Institutions. \emph{International Journal of Engineering Trends and Technology (IJETT)}, 73(7), 443-457.
+
+\bibitem{popescu2018}
+Popescu, E., \& Leon, F. (2018). Predicting Academic Performance Based on Learner Traces in a Social Learning Environment. \emph{IEEE Access}, 6, 75528-75538.
+
+\bibitem{dequincey2019}
+de Quincey, A., et al. (2019). Student-Facing Learning Analytics Dashboards: Designing for Engagement and Active Participation. \emph{Journal of Educational Technology Systems}, 38(3), 210-225.
+
+\bibitem{molenaar2020}
+Molenaar, I., et al. (2020). Managing Learning with AI-Enhanced Dashboards: Empowering Students through Real-Time Academic Feedback. \emph{Computers and Education}, 150, 103850.
+
+\end{thebibliography}
 
 \end{document}
