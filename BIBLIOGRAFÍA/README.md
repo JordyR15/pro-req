@@ -18,7 +18,7 @@ Este directorio está destinado a almacenar y centralizar los **papers científi
 ## 📂 Estructura de Archivos
 ```text
 .
-├── 📄 referencias.bib          # Archivo central con las citas en formato BibTeX (Estándar IEEE)
+├── 📁 referencias.bib          # Archivo central con las citas 
 ├── 📁 papers_pdf/              # Carpeta que contiene los documentos PDF originales utilizados
 │   ├── 📄 paper_01.pdf
 │   ├── 📄 paper_02.pdf
