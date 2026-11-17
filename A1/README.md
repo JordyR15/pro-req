@@ -1,7 +1,12 @@
-# TA-PFC-E1: Primer Avance - Proyecto de Fin de Curso
-**Asignatura:** Ingeniería de Requisitos (ISR-401 UTEQ)  
-**Tema del Proyecto:** Sistema web para la identificación temprana de dificultades académicas mediante el análisis de indicadores de rendimiento estudiantil.  
-**Equipo:** Jordy Rivas, Luis Yepez, Yerai Chalacán y Angelo Espinoza  
+# 📚 A1: Primer Avance - Proyecto
+
+**Asignatura:** Ingeniería de Requisitos
+**Tema del Proyecto:** *Sistema web para la identificación temprana de dificultades académicas mediante el análisis de indicadores de rendimiento estudiantil.*  
+**Equipo de Desarrollo:** 
+* Angelo Espinoza  
+* Luis Yepez  
+* Jordy Rivas  
+* Yerai Chalacán  
 
 ---
 
